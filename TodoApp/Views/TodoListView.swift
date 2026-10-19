@@ -1,7 +1,7 @@
 import SwiftUI
 import Playgrounds
 
-struct TodoApp: View {
+struct TodoListView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
@@ -9,7 +9,7 @@ struct TodoApp: View {
 }
 
 #Preview {
-    TodoApp()
+    TodoListView()
 }
 
 #Playground {
