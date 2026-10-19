@@ -3,8 +3,9 @@ import Playgrounds
 
 struct TodoListView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(Todo.samples){
+            todo in TodoRow(todo: todo)
+        }
     }
 }
 
