@@ -11,7 +11,7 @@ struct TodoRow: View {
     let todo: Todo
     var body: some View {
         HStack{
-            Image(systemName: todo.IsDone ? "circle.fill" : "circle")
+            Image(systemName: todo.isDone ? "circle.fill" : "circle")
             Text("\(todo.title)")
         }
     }

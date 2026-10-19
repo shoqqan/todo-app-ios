@@ -3,13 +3,13 @@ import Foundation
 struct Todo: Identifiable{
     var id = UUID()
     var title: String
-    var IsDone: Bool
+    var isDone: Bool
 }
 
 
 extension Todo {
     static let samples: [Todo] = [
-        Todo(title: "Learn IOS", IsDone: true),
-        Todo(title: "Learn Angular", IsDone: false)
+        Todo(title: "Learn IOS", isDone: true),
+        Todo(title: "Learn Angular", isDone: false)
     ]
 }
